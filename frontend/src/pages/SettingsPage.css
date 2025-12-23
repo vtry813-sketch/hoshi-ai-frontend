@@ -1,0 +1,122 @@
+.settings {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.settings h1 {
+  color: #ececf1;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.settings-section {
+  margin-bottom: 3rem;
+  background: #444654;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #565869;
+}
+
+.settings-section h2 {
+  color: #ececf1;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #565869;
+  padding-bottom: 0.5rem;
+}
+
+.info-card {
+  background: #343541;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #565869;
+}
+
+.info-row:last-child {
+  border-bottom: none;
+}
+
+.info-row span:first-child {
+  color: #acacbe;
+}
+
+.info-row span:last-child {
+  color: #ececf1;
+}
+
+.admin-panel {
+  margin-top: 1rem;
+}
+
+.admin-button {
+  padding: 0.75rem 1.5rem;
+  background: #10a37f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.admin-button:hover:not(:disabled) {
+  background: #0d8c6d;
+}
+
+.admin-button:disabled {
+  background: #565869;
+  cursor: not-allowed;
+}
+
+.admin-info {
+  margin-top: 1.5rem;
+}
+
+.admin-info h3 {
+  color: #ececf1;
+  margin-bottom: 1rem;
+}
+
+.status-active {
+  color: #10a37f;
+}
+
+code {
+  background: #202123;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  font-family: monospace;
+  color: #ec4899;
+}
+
+.about-card {
+  background: #343541;
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+
+.about-card p {
+  color: #ececf1;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.creator-info {
+  color: #10a37f !important;
+  font-style: italic;
+}
+
+.version {
+  color: #acacbe !important;
+  font-size: 0.9rem;
+  text-align: right;
+}
