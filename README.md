@@ -1,6 +1,6 @@
 # HOSHI AI
 
-An intelligent AI assistant powered by Google's Gemini AI, featuring chat functionality and image generation.
+An intelligent AI assistant powered by inconnu boy, featuring chat functionality and image generation.
 
 ## Features
 
